@@ -1,0 +1,40 @@
+/* Styles pour le conteneur de la barre de navigation */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Assure que padding et border sont inclus dans la largeur totale */
+}
+
+nav {
+  background-color: #333; /* Couleur de fond */
+  padding: 10px; /* Espacement interne */
+}
+
+/* Styles pour la liste non ordonnée */
+ul {
+  list-style-type: none; /* Enlève les puces des éléments de liste */
+  margin: 0; /* Enlève la marge par défaut */
+  padding: 0; /* Enlève le padding par défaut */
+  display: flex; /* Utilise le modèle de boîte flexible */
+  justify-content: space-around; /* Espace équitablement les éléments */
+}
+
+/* Styles pour les éléments de liste */
+li {
+  margin: 0; /* Enlève la marge par défaut */
+  color: white; /* Couleur du texte des éléments de liste */
+}
+
+/* Styles pour les liens */
+a {
+  text-decoration: none; /* Enlève le soulignement par défaut des liens */
+  color: white; /* Couleur du texte des liens */
+  padding: 10px; /* Espacement interne des liens */
+  display: block; /* Assure que le lien occupe l'ensemble de l'élément de liste */
+}
+
+/* Styles pour les liens au survol */
+a:hover {
+  color: rgb(132, 145, 221); /* Couleur du texte au survol, par exemple jaune */
+}
